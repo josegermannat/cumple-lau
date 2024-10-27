@@ -1,9 +1,11 @@
 const preguntasQuiz = [
-    { frase: "Eres como una _____ porque traes alegría a mi vida.", respuesta: ["estrella"] },
-    { frase: "Siempre iluminas mi _____ con tu sonrisa.", respuesta: ["día", "dia"] },
-    { frase: "Contigo, cada momento es una _____ inolvidable.", respuesta: ["aventura"] },
-    { frase: "Tu risa es la _____ que alegra mis días.", respuesta: ["melodía"] },
-    { frase: "Eres el _____ de mi corazón.", respuesta: ["amor"] }
+    { frase: "Chaque jour_____beau", respuesta: ["est"] },
+    { frase: "_____UH HAHA", respuesta: ["tiburonsin", "Tiburonsin"] },
+    { frase: "laura es_____ se realista", respuesta: ["enana","linda","hermosa","perfecta","Enana","Linda","Hermosa","Perfecta"] },
+    { frase: "El apodo q mas le gusta a German_____muy dificil", respuesta: ["chihui","Chihui"] },
+    { frase: "bailarias conmigo de nuevo?_____ ", respuesta: ["si","Si"] },
+    { frase: "Me contas un cuento?_____  aksjd se aprovechaba", respuesta: ["si","Si"] }
+
 ];
 
 let preguntaActual = 0;
@@ -34,58 +36,73 @@ function mostrarSeccion(idSeccion) {
 function mostrarGaleriaRecuerdos() {
     const contenedorJuego = document.getElementById('contenedorJuego');
     contenedorJuego.innerHTML = `
-       <h2>Galería de Recuerdos</h2>
+       <h1>Galería de Recuerdos</h1>
 
 <section class="seccion-galeria">
-    <h3>Tus Obras De Arte</h3>
+    <h2>Tus Obras De Arte</h2>
     <div class="galeria">
         <div class="obra" onclick="mostrarFoto('link-imagen1', 'Descripción 1 de obra')">
-            <img src="https://dochub.com/german23-03-09/ALzmZB7wM14pJLewX8J560/whatsapp-image-2024-10-27-at-16-00-36-jpeg" alt="Descripción de la imagen 1">
-            <div class="descripcion">Descripción 1 de obra</div>
+            <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2016.10.45.jpeg?raw=true" alt="Descripción de la imagen 1" loading="lazy">
+            <div class="descripcion">Una super serpiente q va hacia la luna JAJ</div>
         </div>
         <div class="obra" onclick="mostrarFoto('link-imagen2', 'Descripción 2 de obra')">
-            <img src="https://dochub.com/german23-03-09/dbnaAMqK9mqbNgXKGNXJm0/whatsapp-image-2024-10-27-at-16-00-59-jpeg?gdiExists=1C6JBuxPkjW76hd36wCosa40SKFvu8tum" alt="Descripción de la imagen 2">
-            <div class="descripcion">Descripción 2 de obra</div>
+            <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2016.10.37.jpeg?raw=true" alt="Descripción de la imagen 2">
+            <div class="descripcion">Un mapache super mega tierno</div>
         </div>
          <div class="obra" onclick="mostrarFoto('link-imagen1', 'Descripción 3 de obra')">
-            <img src="https://dochub.com/german23-03-09/xP5LzojKa8OEbrGR7ZDlO3/whatsapp-image-2024-10-27-at-16-09-43-jpeg" alt="Descripción de la imagen 3">
-            <div class="descripcion">Descripción 1 de obra</div>
+            <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2016.09.43.jpeg?raw=true" alt="Descripción de la imagen 3">
+            <div class="descripcion">dijiste q lo querias compartir con alguien...</div>
         </div>
          <div class="obra" onclick="mostrarFoto('link-imagen1', 'Descripción 1 de obra')">
-            <img src="https://dochub.com/german23-03-09/orO7lgeVL0vZN2lVjMP2p5/whatsapp-image-2024-10-27-at-16-10-37-jpeg" alt="Descripción de la imagen 1">
-            <div class="descripcion">Descripción 1 de obra</div>
+            <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2016.00.59.jpeg?raw=true" alt="Descripción de la imagen 1">
+            <div class="descripcion">Mi dibujo favorito</div>
         </div>
          <div class="obra" onclick="mostrarFoto('link-imagen1', 'Descripción 1 de obra')">
-            <img src="https://dochub.com/german23-03-09/qd0E4NeKgrOP1JaRJ9LYyj/whatsapp-image-2024-10-27-at-16-10-45-jpeg" alt="Descripción de la imagen 1">
-            <div class="descripcion">Descripción 1 de obra</div>
+            <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2016.00.36.jpeg?raw=true" alt="Descripción de la imagen 1">
+            <div class="descripcion">EL PRIMER DIBUJO Q ME MANDASTE AAA Q FINO</div>
         </div>
     </div>
 </section>
 
 <section class="seccion-galeria">
-    <h3>Nuestras Salidas</h3>
+    <h2>Bonitos recuerdos a tu lado <3</h2>
     <div class="galeria">
         <div class="obra" onclick="mostrarFoto('link-imagen3', 'Descripción 1 de salida')">
-            <img src="link-imagen3" alt="Descripción de la imagen 3">
-            <div class="descripcion">Descripción 1 de salida</div>
+            <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2015.51.54.jpeg?raw=true" alt="Descripción de la imagen 3">
+            <div class="descripcion">la noche mas magica de mi vida</div>
         </div>
         <div class="obra" onclick="mostrarFoto('link-imagen4', 'Descripción 2 de salida')">
-            <img src="link-imagen4" alt="Descripción de la imagen 4">
-            <div class="descripcion">Descripción 2 de salida</div>
+            <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2015.54.20.jpeg?raw=true" alt="Descripción de la imagen 4">
+            <div class="descripcion">Mira q fuerte...Mi gymcrush kasjd</div>
         </div>
+
+         <div class="obra">
+            <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2016.05.41.jpeg?raw=true" alt="Descripción de la imagen 5">
+            <div class="descripcion">Nuestra primera salida</div>
+        </div>
+         
+        <div class="obra">
+            <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2015.55.21.jpeg?raw=true" alt="Descripción de la imagen 6">
+            <div class="descripcion">KSADJAKSD Q GENIAL</div>
+        </div>
+          <div class="obra">
+            <img src="https://github.com/josegermannat/cumple-lau/blob/main/eff7815b-71dc-4b57-8333-b8653d1618c8.jpg?raw=true" alt="Descripción de la imagen 6">
+            <div class="descripcion">q linda</div>
+        </div>
+        
     </div>
 </section>
 
 <section class="seccion-galeria">
-    <h3>Otros Recuerdos</h3>
+    <h2>La mas bonita 💙</h2>
     <div class="galeria">
-        <div class="obra" onclick="mostrarFoto('link-imagen5', 'Descripción 1 de recuerdo')">
-            <img src="link-imagen5" alt="Descripción de la imagen 5">
-            <div class="descripcion">Descripción 1 de recuerdo</div>
+        <div class="obra" >
+            <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2015.57.39.jpeg?raw=true" alt="Descripción de la imagen 5">
+            <div class="descripcion">te mataste ese dia eh...pobrecita</div>
         </div>
-        <div class="obra" onclick="mostrarFoto('link-imagen6', 'Descripción 2 de recuerdo')">
-            <img src="link-imagen6" alt="Descripción de la imagen 6">
-            <div class="descripcion">Descripción 2 de recuerdo</div>
+        <div class="obra">
+            <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2016.02.13.jpeg?raw=true" alt="Descripción de la imagen 6">
+            <div class="descripcion">esque la profe... kkjsadk</div>
         </div>
     </div>
 </section>
@@ -141,6 +158,7 @@ function verificarRespuesta() {
 function mostrarFraseCompletada() {
     const fraseCompletada = document.getElementById('fraseCompletada');
     fraseCompletada.innerHTML = `
+        <h1>Felicidades<h1>
         <div class="caja-sorpresa">
             <a href="tu-pagina.html" class="enlace-sorpresa">¡Tu sorpresa está presionando aquí! 💙</a>
         </div>

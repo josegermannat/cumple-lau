@@ -122,13 +122,28 @@ input:hover {
 }
 
 @media (max-width: 600px) {
-    .punto {
-        width: 40px;
-        height: 40px;
+       /* Ajustes para los botones */
+    .boton {
+        padding: 10px 20px; /* Reduce el padding para que los botones sean más compactos */
+        font-size: 1em; /* Ajusta el tamaño del texto para mejor legibilidad */
+        width: 90%; /* Haz que los botones ocupen la mayor parte del ancho en móvil */
+        max-width: 280px; /* Limita el tamaño máximo del botón */
     }
-    .boton, .input {
-        width: 90%;
+
+    /* Ajustes para los inputs */
+    .input {
+        padding: 8px 12px; /* Reduce el padding interno */
+        font-size: 1em; /* Asegura que el texto sea fácilmente legible */
+        width: 90%; /* Haz que los inputs ocupen la mayor parte del ancho */
+        max-width: 280px; /* Limita el tamaño máximo del input */
+        margin: 10px auto; /* Agrega espacio alrededor del input */
     }
+
+    /* Otros ajustes si es necesario */
+    .galeria {
+        gap: 10px; /* Reduce el espacio entre las imágenes de la galería */
+    }
+
 }
 
 .caja-sorpresa {
@@ -242,27 +257,4 @@ h1{
 font-size: 50px;
 text-shadow: 0 0 5px #fff;
 
-}
-@media (max-width: 600px) {
-    /* Ajustes para los botones */
-    .boton {
-        padding: 10px 20px; /* Reduce el padding para que los botones sean más compactos */
-        font-size: 1em; /* Ajusta el tamaño del texto para mejor legibilidad */
-        width: 90%; /* Haz que los botones ocupen la mayor parte del ancho en móvil */
-        max-width: 280px; /* Limita el tamaño máximo del botón */
-    }
-
-    /* Ajustes para los inputs */
-    .input {
-        padding: 8px 12px; /* Reduce el padding interno */
-        font-size: 1em; /* Asegura que el texto sea fácilmente legible */
-        width: 90%; /* Haz que los inputs ocupen la mayor parte del ancho */
-        max-width: 280px; /* Limita el tamaño máximo del input */
-        margin: 10px auto; /* Agrega espacio alrededor del input */
-    }
-
-    /* Otros ajustes si es necesario */
-    .galeria {
-        gap: 10px; /* Reduce el espacio entre las imágenes de la galería */
-    }
 }

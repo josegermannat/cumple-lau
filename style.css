@@ -143,6 +143,10 @@ input:hover {
     .galeria {
         gap: 10px; /* Reduce el espacio entre las imágenes de la galería */
     }
+      .caja-sorpresa {
+        margin: 10px; /* Reduce el margen en pantallas pequeñas */
+        padding: 15px; /* Reduce el padding en pantallas pequeñas */
+    }
 
 }
 

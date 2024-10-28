@@ -160,7 +160,7 @@ function mostrarFraseCompletada() {
     fraseCompletada.innerHTML = `
         <h1>Felicidades<h1>
         <div class="caja-sorpresa">
-            <a href="tu-pagina.html" class="enlace-sorpresa">¡Tu sorpresa está presionando aquí! 💙</a>
+            <a href=" https://josegermannat.github.io/flores-amarillas/" class="enlace-sorpresa">¡Tu sorpresa está presionando aquí! 💙</a>
         </div>
     `;
 

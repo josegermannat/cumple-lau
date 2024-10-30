@@ -41,23 +41,23 @@ function mostrarGaleriaRecuerdos() {
 <section class="seccion-galeria">
     <h2>Tus Obras De Arte</h2>
     <div class="galeria">
-        <div class="obra" onclick="mostrarFoto('link-imagen1', 'Descripción 1 de obra')">
+        <div class="obra" >
             <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2016.10.45.jpeg?raw=true" alt="Descripción de la imagen 1" loading="lazy">
             <div class="descripcion">Una super serpiente q va hacia la luna JAJ</div>
         </div>
-        <div class="obra" onclick="mostrarFoto('link-imagen2', 'Descripción 2 de obra')">
+        <div class="obra" >
             <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2016.10.37.jpeg?raw=true" alt="Descripción de la imagen 2">
             <div class="descripcion">Un mapache super mega tierno</div>
         </div>
-         <div class="obra" onclick="mostrarFoto('link-imagen1', 'Descripción 3 de obra')">
+         <div class="obra" >
             <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2016.09.43.jpeg?raw=true" alt="Descripción de la imagen 3">
             <div class="descripcion">dijiste q lo querias compartir con alguien...</div>
         </div>
-         <div class="obra" onclick="mostrarFoto('link-imagen1', 'Descripción 1 de obra')">
+         <div class="obra" >
             <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2016.00.59.jpeg?raw=true" alt="Descripción de la imagen 1">
             <div class="descripcion">Mi dibujo favorito</div>
         </div>
-         <div class="obra" onclick="mostrarFoto('link-imagen1', 'Descripción 1 de obra')">
+         <div class="obra">
             <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2016.00.36.jpeg?raw=true" alt="Descripción de la imagen 1">
             <div class="descripcion">EL PRIMER DIBUJO Q ME MANDASTE AAA Q FINO</div>
         </div>
@@ -67,11 +67,11 @@ function mostrarGaleriaRecuerdos() {
 <section class="seccion-galeria">
     <h2>Bonitos recuerdos a tu lado <3</h2>
     <div class="galeria">
-        <div class="obra" onclick="mostrarFoto('link-imagen3', 'Descripción 1 de salida')">
+        <div class="obra" >
             <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2015.51.54.jpeg?raw=true" alt="Descripción de la imagen 3">
             <div class="descripcion">la noche mas magica de mi vida</div>
         </div>
-        <div class="obra" onclick="mostrarFoto('link-imagen4', 'Descripción 2 de salida')">
+        <div class="obra">
             <img src="https://github.com/josegermannat/cumple-lau/blob/main/WhatsApp%20Image%202024-10-27%20at%2015.54.20.jpeg?raw=true" alt="Descripción de la imagen 4">
             <div class="descripcion">Mira q fuerte...Mi gymcrush kasjd</div>
         </div>
@@ -142,7 +142,7 @@ function verificarRespuesta() {
             mostrarFraseCompletada();
         }
     } else {
-        retroalimentacion.innerText = "Respuesta incorrecta. Intenta otra vez.";
+        retroalimentacion.innerText = "akasjd re mamerta 💙 ";
         // Cambiar el borde y el placeholder en caso de error
         inputRespuesta.classList.add('error');
         inputRespuesta.placeholder = "Respuesta incorrecta. Intenta otra vez.";
